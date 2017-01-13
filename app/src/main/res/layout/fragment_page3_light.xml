@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:CircleProgressView="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_options"
     android:layout_width="match_parent"
@@ -14,24 +14,18 @@
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <at.grabner.circleprogress.CircleProgressView
-            android:id="@+id/circleView"
+
+        <com.github.lzyzsd.circleprogress.ArcProgress
+            android:id="@+id/arc_progress"
             android:layout_width="300dp"
             android:layout_height="300dp"
-            CircleProgressView:cpv_innerContourSize="0dp"
-            CircleProgressView:cpv_outerContourSize="0dp"
-
-            CircleProgressView:cpv_startAngle="120"
-            CircleProgressView:cpv_rimColor="#EEEEEE"
-            CircleProgressView:cpv_rimWidth="45dp"
-            CircleProgressView:cpv_barColor="#808080"
-            CircleProgressView:cpv_barWidth="45dp"
-            CircleProgressView:cpv_blockCount="55"
-            CircleProgressView:cpv_blockScale="0.2"
-            CircleProgressView:cpv_maxValue="120"
-            CircleProgressView:cpv_seekMode="true"
-            CircleProgressView:cpv_value="100" />
-
+            custom:arc_progress="80"
+            custom:arc_text_color="#EEEEEE"
+            custom:arc_stroke_width="50dp"
+            custom:arc_angle="140"
+            custom:arc_finished_color="@color/background_color"
+            custom:arc_unfinished_color="@color/background_divider_color2"
+            />
     </LinearLayout>
 
     <LinearLayout
