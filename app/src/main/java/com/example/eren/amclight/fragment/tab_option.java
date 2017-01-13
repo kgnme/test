@@ -13,11 +13,8 @@ import android.widget.FrameLayout;
 
 import com.example.eren.amclight.page4_option1;
 import com.example.eren.amclight.R;
+import com.example.eren.amclight.page4_option2;
 import com.example.eren.amclight.page4_option4;
-
-/**
- * Created by eren on 2017. 1. 3..
- */
 
 public class tab_option extends Fragment implements View.OnClickListener {
     Context mContext;
@@ -51,22 +48,18 @@ public class tab_option extends Fragment implements View.OnClickListener {
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.option1:
-                Log.e("tab_option", "1");
                 Intent in = new Intent(mContext, page4_option1.class);
                 startActivity(in);
                 break;
             case R.id.option2:
-                Log.e("tab_option", "1");
                 Intent in2 = new Intent(mContext, page4_option2.class);
                 startActivity(in2);
                 break;
             case R.id.option3:
-                Log.e("tab_option", "1");
                 Intent in3 = new Intent(mContext, page4_option1.class);
                 startActivity(in3);
                 break;
             case R.id.option4:
-                Log.e("tab_option", "1");
                 Intent in4 = new Intent(mContext, page4_option4.class);
                 startActivity(in4);
                 break;
