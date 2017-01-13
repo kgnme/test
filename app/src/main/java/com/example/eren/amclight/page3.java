@@ -37,8 +37,6 @@ public class page3 extends AppCompatActivity {
     private ImageView tab_view[] = new ImageView[5];
     private int[] tabIcons = {R.drawable.page3_tabicon_light, R.drawable.page3_tabicon_timer, R.drawable.page3_tabicon_alert,
             R.drawable.page3_tabicon_insect, R.drawable.page3_tabicon_option    };
-    private int[] tabIconsOn = {R.drawable.page3_tabicon_light_on, R.drawable.page3_tabicon_timer_on, R.drawable.page3_tabicon_alert_on,
-            R.drawable.page3_tabicon_insect_on, R.drawable.page3_tabicon_option_on    };
 
     //ble notification 같은 서비스 등록해야함
 
