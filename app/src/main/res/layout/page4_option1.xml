@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_options"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.eren.amclight.page4_option1">
+
+    <include layout="@layout/page4_toolbar"/>
+
+    <LinearLayout
+        android:background="@color/background_color"
+        android:layout_weight="2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/page4_bt_call"
+            android:layout_margin="60dp"
+            android:background="@drawable/page3_image_call"
+            />
+
+    </LinearLayout>
+
+    <include layout="@layout/border"></include>
+
+    <FrameLayout
+        android:background="@color/background_color"
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_gravity="right"
+            android:gravity="center_vertical"
+            android:id="@+id/page4_sos_tv_callname"
+            android:text="Father"
+            android:textColor="@color/font_color"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_gravity="right"
+            android:id="@+id/page4_bt_editcall"
+            android:gravity="center"
+            android:text="   Edit   "
+            android:textColor="@color/font_color"
+            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:background="@color/background_color"
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_gravity="right"
+            android:gravity="center_vertical"
+            android:id="@+id/page4_sos_tv_callnumber"
+            android:text="Father"
+            android:textColor="@color/font_color"
+            android:textSize="18sp"
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <include layout="@layout/border"></include>
+
+    <FrameLayout
+        android:background="@color/background_color"
+        android:layout_weight="5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+
+</LinearLayout>
