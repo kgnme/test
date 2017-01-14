@@ -19,11 +19,8 @@ import android.widget.Toast;
 
 public class page4_option1 extends AppCompatActivity implements View.OnClickListener {
 
-    private Button bt_toolbar_back;
     private Button bt_call;
     private TextView bt_call_edit_number;
-    private TextView tv_toolbar_title;
-
 
     private TextView tv_call_number;
     private TextView tv_call_name;
@@ -36,11 +33,21 @@ public class page4_option1 extends AppCompatActivity implements View.OnClickList
         super.onCreate(savedInstanceState);
         setContentView(R.layout.page4_option1);
 
+        TextView tv_toolbar_title = (TextView) findViewById(R.id.page4_toolbar_tv_title);
+        tv_toolbar_title.setText("Sos Number");
+        Button bt_toolbar_back = (Button) findViewById(R.id.page4_toolbar_bt_back);
+        bt_toolbar_back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
+
         bt_call = (Button) findViewById(R.id.page4_bt_call);
-        bt_toolbar_back = (Button) findViewById(R.id.page4_toolbar_bt_back);
+
         bt_call_edit_number = (TextView) findViewById(R.id.page4_bt_editcall);
         bt_call.setOnClickListener(this);
-        bt_toolbar_back.setOnClickListener(this);
+
         bt_call_edit_number.setOnClickListener(this);
 
         tv_toolbar_title = (TextView) findViewById(R.id.page4_toolbar_tv_title);
@@ -55,9 +62,6 @@ public class page4_option1 extends AppCompatActivity implements View.OnClickList
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case R.id.page4_toolbar_bt_back:
-                finish();
-                break;
             case R.id.page4_bt_call:
                 callnumber();
                 break;

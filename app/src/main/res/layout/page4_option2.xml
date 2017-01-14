@@ -8,6 +8,9 @@
     android:orientation="vertical"
     android:background="@color/background_color"
     tools:context="com.example.eren.amclight.page4_option1">
+
+    <include layout="@layout/page4_toolbar"/>
+
     <LinearLayout
         android:layout_weight="3"
         android:gravity="center"

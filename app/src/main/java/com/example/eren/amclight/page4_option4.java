@@ -20,7 +20,6 @@ import android.widget.Toast;
 public class page4_option4 extends AppCompatActivity implements View.OnClickListener {
 
     private Button bt_onoff;
-    private Button bt_toolbar_back;
 
     private boolean all_state = false;
 
@@ -28,6 +27,17 @@ public class page4_option4 extends AppCompatActivity implements View.OnClickList
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.page4_option4);
+
+        TextView tv_toolbar_title = (TextView) findViewById(R.id.page4_toolbar_tv_title);
+        tv_toolbar_title.setText("ON/OFF");
+        Button bt_toolbar_back = (Button) findViewById(R.id.page4_toolbar_bt_back);
+        bt_toolbar_back.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                finish();
+            }
+        });
+
         bt_onoff = (Button) findViewById(R.id.page4_bt_onoff);
         bt_onoff.setOnClickListener(this);
         bt_toolbar_back = (Button) findViewById(R.id.page4_toolbar_bt_back);

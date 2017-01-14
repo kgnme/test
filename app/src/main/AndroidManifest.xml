@@ -24,6 +24,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".page4_option1"></activity>
         <activity android:name=".page4_option2"></activity>
+        <activity android:name=".page4_option3"></activity>
         <activity android:name=".page4_option4"></activity>
     </application>
 

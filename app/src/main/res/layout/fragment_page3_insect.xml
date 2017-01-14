@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/background_color"
+    android:background="@color/background_color2"
     tools:context="com.example.eren.amclight.page3$PlaceholderFragment">
     <LinearLayout
         android:gravity="center"
@@ -23,10 +23,8 @@
         android:layout_height="match_parent">
         <Button
             android:id="@+id/page3_button_slider"
-            android:background="@drawable/slider_on"
-            android:layout_width="100dp"
-            android:layout_height="70dp" />
+            android:background="@drawable/slider_off"
+            android:layout_width="304px"
+            android:layout_height="176px" />
     </LinearLayout>
-
-
 </LinearLayout>
