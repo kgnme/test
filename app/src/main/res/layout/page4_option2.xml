@@ -35,7 +35,7 @@
             android:layout_height="300dp"
             custom:circle_max="100"
             custom:circle_unfinished_color="@color/background_divider_color2"
-            custom:circle_finished_color="@color/background_color2"
+            custom:circle_finished_color="@color/background_color_page3"
             custom:circle_progress="50"/>
 
     </LinearLayout>

@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/background_color2"
+    android:background="@color/background_color_page3"
     tools:context="com.example.eren.amclight.page3$PlaceholderFragment">
     <LinearLayout
         android:gravity="center"

@@ -14,17 +14,19 @@ import android.widget.FrameLayout;
 import com.example.eren.amclight.page4_option1;
 import com.example.eren.amclight.R;
 import com.example.eren.amclight.page4_option2;
+import com.example.eren.amclight.page4_option3;
 import com.example.eren.amclight.page4_option4;
 
 public class tab_option extends Fragment implements View.OnClickListener {
+    public tab_option(Context context) {
+        mContext = context;
+    }
     Context mContext;
 
     private FrameLayout option[] = new FrameLayout[5];
     private int[] framelayout_id = {R.id.option1, R.id.option2, R.id.option3, R.id.option4};
 
-    public tab_option(Context context) {
-        mContext = context;
-    }
+
 
     @Override
     public View onCreateView(LayoutInflater inflater,
@@ -37,10 +39,6 @@ public class tab_option extends Fragment implements View.OnClickListener {
             option[i] = (FrameLayout) view.findViewById(framelayout_id[i]);
             option[i].setOnClickListener(this);
         }
-
-
-
-
         return view;
     }
 
@@ -56,7 +54,7 @@ public class tab_option extends Fragment implements View.OnClickListener {
                 startActivity(in2);
                 break;
             case R.id.option3:
-                Intent in3 = new Intent(mContext, page4_option1.class);
+                Intent in3 = new Intent(mContext, page4_option3.class);
                 startActivity(in3);
                 break;
             case R.id.option4:

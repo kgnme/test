@@ -13,11 +13,12 @@ import com.example.eren.amclight.R;
 
 
 public class tab_light extends Fragment {
-    Context mContext;
-
     public tab_light(Context context) {
         mContext = context;
     }
+    Context mContext;
+
+
     private boolean lighton;
     private Button btn_page3_light_slider;
 

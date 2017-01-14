@@ -14,11 +14,12 @@ import com.example.eren.amclight.R;
  */
 
 public class tab_insect extends Fragment {
-    Context mContext;
-
     public tab_insect(Context context) {
         mContext = context;
     }
+    Context mContext;
+
+
 
     @Override
     public View onCreateView(LayoutInflater inflater,

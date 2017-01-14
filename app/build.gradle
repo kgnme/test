@@ -28,5 +28,6 @@ dependencies {
     compile 'com.android.support:design:25.1.0'
     compile 'com.github.jakob-grabner:Circle-Progress-View:v1.3'
     compile 'com.github.lzyzsd:circleprogress:1.1.0'
+    compile 'com.android.support:support-v4:25.1.0'
     testCompile 'junit:junit:4.12'
 }

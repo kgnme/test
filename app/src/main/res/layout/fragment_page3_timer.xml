@@ -1,15 +1,51 @@
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/background_color2"
+    android:background="@color/background_color_page3"
+    android:orientation="vertical"
     tools:context="com.example.eren.amclight.page3$PlaceholderFragment">
-
-    <Button
+    <LinearLayout
         android:gravity="center"
-        android:id="@+id/section_label"
-        android:background="@drawable/page3_tabicon_insect"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:gravity="center"
+            android:id="@+id/page3_tv_time_remaining"
+            android:text="Here is time remaining field"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TimePicker
+            android:id="@+id/timePicker"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleX="1.50"
+            android:scaleY="1.50"
+            android:timePickerMode="spinner"
+            android:alwaysDrawnWithCache="false" />
+    </LinearLayout>
 
-</RelativeLayout>
+    <LinearLayout
+        android:layout_weight="3"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/page3_button_timer_start"
+            android:layout_width="250px"
+            android:layout_height="250px"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/ui_button_rounded" />
+    </LinearLayout>
+
+
+</LinearLayout>
