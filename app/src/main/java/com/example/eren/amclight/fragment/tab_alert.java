@@ -24,7 +24,6 @@ public class tab_alert extends Fragment {
     public View onCreateView(LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_page3_alert, null);
-aa;
         return view;
     }
 }
