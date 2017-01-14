@@ -12,69 +12,6 @@
     </item>
     <item
         is-multidex="false"
-        jar="/Users/eren/AndroidStudioProjects/AmcLight/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
-        <dex dex="/Users/eren/AndroidStudioProjects/AmcLight/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.0_3f69bf2a8822af66a7f9ba99e2fa58c5828e7b2c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/eren/AndroidStudioProjects/AmcLight/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
-        <dex dex="/Users/eren/AndroidStudioProjects/AmcLight/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.1.0_2048292a0e0750aee1bdfd2e7b9ea6a4f39aa956.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/eren/AndroidStudioProjects/AmcLight/app/build/intermediates/exploded-aar/com.github.lzyzsd/circleprogress/1.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="e6f9fb0d2ea982d656d6dca785a9097659395874">
-        <dex dex="/Users/eren/AndroidStudioProjects/AmcLight/app/build/intermediates/pre-dexed/debug/com.github.lzyzsd-circleprogress-1.1.0_36973f03ae88bc6948bdeeb19a518c323ca50130.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/eren/AndroidStudioProjects/AmcLight/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
-        <dex dex="/Users/eren/AndroidStudioProjects/AmcLight/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.1.0_4553f86c64697a7d43f2332e003bfffb8dbbb6c7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/eren/AndroidStudioProjects/AmcLight/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
-        <dex dex="/Users/eren/AndroidStudioProjects/AmcLight/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.0_e47924f7b4854c6d661ee993ac4a0ba5d5116fd7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/eren/AndroidStudioProjects/AmcLight/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
-        <dex dex="/Users/eren/AndroidStudioProjects/AmcLight/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.1.0_51acc96e8f82e0a61c3d42f7173716665a6f9a48.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/eren/AndroidStudioProjects/AmcLight/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="25.0.2"
-        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
-        <dex dex="/Users/eren/AndroidStudioProjects/AmcLight/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.0_1fad4c111fefb8ab5bdd2ece2433dbe0d714b36e.jar" />
-    </item>
-    <item
-        is-multidex="false"
         jar="/Users/eren/AndroidStudioProjects/AmcLight/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -120,6 +57,15 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/eren/AndroidStudioProjects/AmcLight/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/Users/eren/AndroidStudioProjects/AmcLight/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.0_3f69bf2a8822af66a7f9ba99e2fa58c5828e7b2c.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/eren/AndroidStudioProjects/AmcLight/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
@@ -129,12 +75,75 @@
     </item>
     <item
         is-multidex="false"
+        jar="/Users/eren/AndroidStudioProjects/AmcLight/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/Users/eren/AndroidStudioProjects/AmcLight/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.1.0_2048292a0e0750aee1bdfd2e7b9ea6a4f39aa956.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/eren/AndroidStudioProjects/AmcLight/app/build/intermediates/exploded-aar/com.github.lzyzsd/circleprogress/1.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e6f9fb0d2ea982d656d6dca785a9097659395874">
+        <dex dex="/Users/eren/AndroidStudioProjects/AmcLight/app/build/intermediates/pre-dexed/debug/com.github.lzyzsd-circleprogress-1.1.0_36973f03ae88bc6948bdeeb19a518c323ca50130.jar" />
+    </item>
+    <item
+        is-multidex="false"
         jar="/Users/eren/AndroidStudioProjects/AmcLight/app/build/intermediates/exploded-aar/com.github.jakob-grabner/Circle-Progress-View/v1.3/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="a45be2c621726ffaad6f83c942bb7c8bd4eb662e">
         <dex dex="/Users/eren/AndroidStudioProjects/AmcLight/app/build/intermediates/pre-dexed/debug/com.github.jakob-grabner-Circle-Progress-View-v1.3_e99e8bb1b910e8f9d65b336a4fb0bdfcdfe810ff.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/eren/AndroidStudioProjects/AmcLight/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="/Users/eren/AndroidStudioProjects/AmcLight/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.1.0_4553f86c64697a7d43f2332e003bfffb8dbbb6c7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/eren/AndroidStudioProjects/AmcLight/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/Users/eren/AndroidStudioProjects/AmcLight/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.0_e47924f7b4854c6d661ee993ac4a0ba5d5116fd7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/eren/AndroidStudioProjects/AmcLight/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/Users/eren/AndroidStudioProjects/AmcLight/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.1.0_51acc96e8f82e0a61c3d42f7173716665a6f9a48.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/eren/AndroidStudioProjects/AmcLight/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/Users/eren/AndroidStudioProjects/AmcLight/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.0_1fad4c111fefb8ab5bdd2ece2433dbe0d714b36e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/eren/AndroidStudioProjects/AmcLight/app/build/intermediates/exploded-aar/com.android.support/gridlayout-v7/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c83fbde55c05bc186002d7ce3570d619c3d6ee1f">
+        <dex dex="/Users/eren/AndroidStudioProjects/AmcLight/app/build/intermediates/pre-dexed/debug/com.android.support-gridlayout-v7-25.1.0_94d7ecd63376fa0cdd7602ee8373b2b0a9f724e1.jar" />
     </item>
 
 </items>

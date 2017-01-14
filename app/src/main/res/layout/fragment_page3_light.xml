@@ -10,16 +10,21 @@
     tools:context="com.example.eren.amclight.page4_option1">
 
     <LinearLayout
-        android:gravity="center"
         android:layout_weight="1"
+        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <Button
-            android:background="@drawable/page3_tabicon_insect"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
 
+
+        <SeekBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBar2"
+            android:max="100"
+            android:thumb="@drawable/ic_launcher"
+            android:layout_weight="1" />
     </LinearLayout>
+
     <LinearLayout
         android:gravity="center"
         android:layout_weight="5"
