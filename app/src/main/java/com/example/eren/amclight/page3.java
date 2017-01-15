@@ -47,8 +47,6 @@ public class page3 extends AppCompatActivity {
 
         mContext = getApplicationContext();
 
-//        toolbar = (Toolbar) findViewById(R.id.toolbar);
-//        setSupportActionBar(toolbar);
         mSectionsPagerAdapter = new SectionsPagerAdapter(getSupportFragmentManager());
 
         viewpager = (ViewPager) findViewById(R.id.container);
@@ -57,6 +55,7 @@ public class page3 extends AppCompatActivity {
         tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(viewpager);
         setupTabIcons();
+
     }
 
 
@@ -78,6 +77,7 @@ public class page3 extends AppCompatActivity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
             View rootView = inflater.inflate(R.layout.fragment_page3_light, container, false);
+
             return rootView;
         }
     }
@@ -90,6 +90,7 @@ public class page3 extends AppCompatActivity {
 
         @Override
         public Fragment getItem(int position) {
+            Log.e("PAGE3", "pos : " + position);
             switch(position) {
                 case 0:
                     return new tab_light(mContext);

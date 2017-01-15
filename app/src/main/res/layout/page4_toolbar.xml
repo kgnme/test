@@ -11,8 +11,7 @@
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:id="@+id/page4_toolbar_bt_back"
-            android:background="@color/background_color"
-            android:text="back"
+            android:background="@drawable/page4_button_back"
             />
         <TextView
             android:layout_width="match_parent"

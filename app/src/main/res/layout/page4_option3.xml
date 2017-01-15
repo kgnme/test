@@ -3,13 +3,65 @@
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:custom="http://schemas.android.com/apk/res-auto"
     android:id="@+id/activity_options"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@color/background_color"
+    style="@style/erenTopLinearLayout_normal"
     tools:context="com.example.eren.amclight.page4_option1">
 
     <include layout="@layout/page4_toolbar"/>
+
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            style="@style/erenTextViewTitle"
+            android:layout_marginBottom="20dp"
+            android:id="@+id/page4_option3_selected"
+            android:text="Selected Device : Light 01"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            style="@style/erenButtonListBox"
+            android:id="@+id/page4_btlist_1"
+            android:text="Light 01"/>
+        <Button
+            style="@style/erenButtonListBox"
+            android:id="@+id/page4_btlist_2"
+            android:text="Light 02"/>
+        <Button
+            style="@style/erenButtonListBox"
+            android:id="@+id/page4_btlist_3"
+            android:text="Light 03"/>
+        <Button
+            style="@style/erenButtonListBox"
+            android:id="@+id/page4_btlist_4"
+            android:text="Light 04"/>
+        <Button
+            style="@style/erenButtonListBox"
+            android:id="@+id/page4_btlist_5"
+            android:text="Light 05"/>
+        <Button
+            style="@style/erenButtonListBox"
+            android:id="@+id/page4_btlist_6"
+            android:text="Light 06"/>
+        <Button
+            style="@style/erenButtonListBox"
+            android:id="@+id/page4_btlist_7"
+            android:text="Light 07"/>
+        <Button
+            style="@style/erenButtonListBox"
+            android:id="@+id/page4_btlist_8"
+            android:text="Light 08"/>
+        <Button
+            style="@style/erenButtonListBox"
+            android:id="@+id/page4_btlist_9"
+            android:text="Light 09"/>
+    </LinearLayout>
 
 
 

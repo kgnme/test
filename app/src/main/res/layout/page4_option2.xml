@@ -3,10 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     xmlns:custom="http://schemas.android.com/apk/res-auto"
     android:id="@+id/activity_options"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@color/background_color"
+    style="@style/erenTopLinearLayout_normal"
     tools:context="com.example.eren.amclight.page4_option1">
 
     <include layout="@layout/page4_toolbar"/>
@@ -24,13 +21,14 @@
             android:text="Remaining 5h 30m"
             />
     </LinearLayout>
+
     <LinearLayout
         android:layout_weight="1"
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <com.github.lzyzsd.circleprogress.CircleProgress
-            android:id="@+id/circle_progress"
+            android:id="@+id/page4_cp_battery"
             android:layout_width="300dp"
             android:layout_height="300dp"
             custom:circle_max="100"
@@ -39,5 +37,20 @@
             custom:circle_progress="50"/>
 
     </LinearLayout>
+    <LinearLayout
+        android:layout_weight="3"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <SeekBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBar_page3_battery"
+            android:max="100"
+            android:thumb="@drawable/ic_launcher"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
 
 </LinearLayout>

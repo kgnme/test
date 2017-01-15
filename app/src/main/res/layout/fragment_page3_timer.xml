@@ -1,9 +1,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@color/background_color_page3"
-    android:orientation="vertical"
+    style="@style/erenTopLinearLayout_tab"
     tools:context="com.example.eren.amclight.page3$PlaceholderFragment">
     <LinearLayout
         android:gravity="center"
@@ -13,10 +10,9 @@
         <TextView
             android:gravity="center"
             android:id="@+id/page3_tv_time_remaining"
-            android:text="Here is time remaining field"
-            android:layout_marginTop="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            style="@style/erenTextViewPage3Title"
+            android:text="Here is time remaining field\nIt turn off after 00:00:00"
+            />
     </LinearLayout>
     <LinearLayout
         android:layout_weight="1"
@@ -24,6 +20,7 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
+
         <TimePicker
             android:id="@+id/timePicker"
             android:layout_width="wrap_content"
@@ -35,7 +32,7 @@
     </LinearLayout>
 
     <LinearLayout
-        android:layout_weight="3"
+        android:layout_weight="2"
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="match_parent">

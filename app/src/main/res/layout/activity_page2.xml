@@ -3,28 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_page2"
-    android:background="@color/background_color"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
+    style="@style/erenTopLinearLayout"
     tools:context="com.example.eren.amclight.page2">
 
     <LinearLayout
         android:orientation="vertical"
-        android:gravity="center"
-
-        android:layout_weight="5"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <TextView
-            android:layout_gravity="center_horizontal"
+            style="@style/erenTextViewTitle"
             android:text="Bluetooth"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
             android:id="@+id/page2_tv_title"
             />
-
     </LinearLayout>
 
     <LinearLayout
@@ -35,25 +26,25 @@
         android:layout_weight="1">
 
         <ImageView
-            android:layout_width="416px"
-            android:layout_height="472px"
-            app:srcCompat="@drawable/page2_image_bluetooth_circle_beige"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/page2_image_bluetooth_circle_gray"
             android:id="@+id/imageView" />
     </LinearLayout>
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="5"
         >
 
         <Button
-            android:background="@drawable/page2_button_off"
+            style="@style/erenButton"
             android:text="Pair Device"
             android:layout_gravity="center"
-            android:layout_width="454px"
-            android:layout_height="150px"
-            android:id="@+id/page2_btn_pair_device" />
+            android:id="@+id/page2_btn_pair_device"
+            />
 
     </LinearLayout>
 

@@ -3,23 +3,33 @@
     xmlns:custom="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/activity_options"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:background="@color/background_color_page3"
+    style="@style/erenTopLinearLayout_tab"
     tools:context="com.example.eren.amclight.page4_option1">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_page3_light_value"
+            android:text="light intensity : "
+            android:layout_marginBottom="20dp"
+            style="@style/erenTextViewPage3Title"
+            />
+
+    </LinearLayout>
 
     <LinearLayout
         android:layout_weight="1"
-        android:gravity="center"
-        android:layout_width="match_parent"
+        android:gravity="bottom"
+        android:layout_gravity="center"
+        android:layout_width="1000px"
         android:layout_height="match_parent">
 
 
         <SeekBar
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/seekBar2"
+            android:id="@+id/seekBar_page3_light"
             android:max="100"
             android:thumb="@drawable/ic_launcher"
             android:layout_weight="1" />
@@ -27,11 +37,11 @@
 
     <LinearLayout
         android:gravity="center"
-        android:layout_weight="5"
+        android:layout_weight="4"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <Button
-            android:id="@+id/page3_button_slider"
+            android:id="@+id/page3_button_slider_light"
             android:background="@drawable/slider_off"
             android:layout_width="304px"
             android:layout_height="176px" />

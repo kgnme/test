@@ -63,7 +63,8 @@ public class page4_option1 extends AppCompatActivity implements View.OnClickList
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.page4_bt_call:
-                callnumber();
+                CallNumber mCallNumber = CallNumber.getInstance(getApplicationContext());
+                mCallNumber.call();
                 break;
             case R.id.page4_bt_editcall:
                 dialog_change_number = createDialog();
@@ -87,16 +88,15 @@ public class page4_option1 extends AppCompatActivity implements View.OnClickList
 
     private void changeButtonImage()
     {
-        Log.e("asdf", tv_call_number.getText().toString().trim());
         if(tv_call_number.getText().toString().trim().equals("119"))
         {
             tv_call_number.setTextSize(TypedValue.COMPLEX_UNIT_SP, 40);
-            bt_call.setBackgroundResource(R.drawable.page3_image_call);
+            bt_call.setBackgroundResource(R.drawable.page3_image_call2);
         }
         else
         {
             tv_call_number.setTextSize(TypedValue.COMPLEX_UNIT_SP, 18);
-            bt_call.setBackgroundResource(R.drawable.page3_image_call2);
+            bt_call.setBackgroundResource(R.drawable.page3_image_call);
         }
     }
 
